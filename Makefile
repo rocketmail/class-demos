@@ -10,7 +10,7 @@ test:
 	#python -m pytest --nbval notebook.ipynb
 
 validate-circleci:
-	# See file https://circleci.com/docs/2.0/local-cli/#processing-a-config
+	# See https://circleci.com/docs/2.0/local-cli/#processing-a-config
 	circleci config process .circleci/config.yml
 
 run-circleci-local:
